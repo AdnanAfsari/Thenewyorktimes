@@ -1,0 +1,330 @@
+/*
+|----------------------------------------------------------------------------
+| GLOBAL STYLES
+|----------------------------------------------------------------------------
+*/
+/******************** TYPOGRAPHY ********************/
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  font-size: 16px;
+  background: #fff;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #313131;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 4.5em;
+  font-weight: 600;
+  line-height: 1.04;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: 100;
+  margin: 0;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 300;
+}
+
+h4 {
+  font-size: 1.125em;
+  font-weight: 500;
+  margin: 0;
+}
+
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+}
+
+iframe {
+  width: 100%;
+  height: 500px;
+}
+
+
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+
+div, section, nav, figure {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
+nav {
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  background: #fff;
+  position: fixed;
+  margin: 0;
+
+}
+
+
+.nav-left-content {
+  width: 20%;
+  text-align: right;
+
+}
+.nav-middle-content {
+  width: 60%;
+  text-align: center;
+}
+
+.nav-middle-content img {
+    width: 200px;
+    margin-top: 15px;
+}
+.nav-right-content {
+  width: 20%;
+  text-align: left;
+}
+nav ul li {
+  display: inline-block;
+  padding: 10px;
+
+}
+.nav-title {
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+nav input {
+  color: #fff;
+  background: #6288a5;
+  border: 1px solid #6288a5;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.clearfix{
+ clear: both;
+}
+.top60 {
+  height: 60px;
+}
+
+
+.main-content {
+  margin: 0 auto;
+  width: 70%;
+
+}
+
+.banner-container {
+  width: 100%;
+}
+.banner-container img {
+  width: 100%;
+}
+.banner-container h3 {
+  margin: 0;
+  padding: 0;
+  padding-left: 100px;
+}
+.banner-container p {
+  margin: 0;
+  padding: 0;
+  width: 80%;
+}
+
+.article-container {
+  width: 70%;
+  margin: 0 auto;
+}
+.article-container h4{
+  margin: 0;
+  padding: 10px 0;
+  color: #000;
+  font-weight: bolder;
+}
+.article-container .date, .comment-btn {
+  padding: 10px 0;
+}
+
+.comment-btn input {
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #6288a5;
+  color: #fff;
+  background: #6288a5;
+}
+.article-container ul li {
+  display: inline-block;
+}
+.article-container ul li i {
+  background: #eee;
+  border-radius: 100%;
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+
+
+
+.grid-container {
+  width: 100%;
+}
+
+.grid-container ul {
+  padding: 0;
+  margin: 0;
+}
+.grid-box {
+  width: 24%;
+  float: left;
+  padding: 3px;
+
+}
+.grid-box img{
+  width: 100%;
+  height: 100%;
+}
+
+.grid-box p {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+
+}
+.grid-container hr {
+  width: 80px;
+  float: left;
+}
+
+
+.related-container {
+  display: flex;
+}
+
+.left-segment {
+  width: 70%;
+  padding: 5px;
+}
+
+.related-grid {
+  width: 33.33%;
+  float: left;
+}
+
+.related-grid figure {
+  margin: 0;
+  padding: 0;
+  margin-right: 20px;
+}
+
+.right {
+}
+
+.left {
+}
+
+.left-segment figure figcaption, p {
+  font-size: 12px;
+}
+
+.right-segment {
+  width: 30%;
+  padding: 5px;
+}
+.right-segment ul li{
+  padding: 20px 10px;
+  border-top: 2px solid #e2e2e2;
+}
+
+/* .left-segment figure figcaption  */
+.right {
+  float: right;
+}
+
+footer {
+  width: 90%;
+  margin: 0 auto;
+
+}
+.top-footer {
+  border-top: 2px double #ddd;
+
+
+}
+
+.top-footer img {
+  width: 200px;
+  padding-top: 15px;
+  float: left;
+}
+
+.footer-column {
+  float: left;
+  width: 16.66%;
+  }
+
+.bottom-footer ul li a, .footer-column ul li a{
+  color: black;
+}
+
+.bottom-footer ul li a{
+  font-size: 10px;
+}
+.bottom-footer ul li{
+  text-indent: center;
+  display: inline-block;
+}
+
+.bottom-footer{
+  margin-top: 15px;
+  border-top: 1px solid #ddd;
+  text-align: center;
+
+}
