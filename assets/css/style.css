@@ -3,7 +3,9 @@
 | GLOBAL STYLES
 |----------------------------------------------------------------------------
 */
+
 /******************** TYPOGRAPHY ********************/
+
 html {
   font-size: 16px;
 }
@@ -26,11 +28,14 @@ h6 {
 
 h1 {
   font-family: 'Raleway', sans-serif;
-  font-size: 4.5em;
+  font-size: 2em;
   font-weight: 600;
   line-height: 1.04;
-  color: #fff;
-  text-transform: uppercase;
+  font-style: italic;
+  text-transform: capitalize;
+  margin-left: 100px;
+  margin-top: 70px;
+  margin-bottom: 30px;
 }
 
 h2 {
@@ -50,7 +55,6 @@ h4 {
   margin: 0;
 }
 
-
 ul {
   padding: 0;
   margin: 0;
@@ -69,8 +73,6 @@ iframe {
   height: 500px;
 }
 
-
-
 a {
   text-decoration: none;
 }
@@ -83,15 +85,15 @@ a:focus {
   text-decoration: none;
 }
 
-
-div, section, nav, figure {
+div,
+section,
+nav,
+figure {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
-
-
 
 nav {
   width: 100%;
@@ -101,33 +103,33 @@ nav {
   background: #fff;
   position: fixed;
   margin: 0;
-
 }
-
 
 .nav-left-content {
   width: 20%;
   text-align: right;
-
 }
+
 .nav-middle-content {
   width: 60%;
   text-align: center;
 }
 
 .nav-middle-content img {
-    width: 200px;
-    margin-top: 15px;
+  width: 200px;
+  margin-top: 15px;
 }
+
 .nav-right-content {
   width: 20%;
   text-align: left;
 }
+
 nav ul li {
   display: inline-block;
   padding: 10px;
-
 }
+
 .nav-title {
   font-size: 18px;
   font-weight: 400;
@@ -142,31 +144,33 @@ nav input {
   padding: 5px;
 }
 
-.clearfix{
- clear: both;
+.clearfix {
+  clear: both;
 }
+
 .top60 {
   height: 60px;
 }
 
-
 .main-content {
   margin: 0 auto;
   width: 70%;
-
 }
 
 .banner-container {
   width: 100%;
 }
+
 .banner-container img {
   width: 100%;
 }
+
 .banner-container h3 {
   margin: 0;
   padding: 0;
   padding-left: 100px;
 }
+
 .banner-container p {
   margin: 0;
   padding: 0;
@@ -177,13 +181,17 @@ nav input {
   width: 70%;
   margin: 0 auto;
 }
-.article-container h4{
+
+.article-container h4 {
   margin: 0;
   padding: 10px 0;
   color: #000;
   font-weight: bolder;
 }
-.article-container .date, .comment-btn {
+
+.article-container,
+.date,
+.comment-btn {
   padding: 10px 0;
 }
 
@@ -194,9 +202,11 @@ nav input {
   color: #fff;
   background: #6288a5;
 }
+
 .article-container ul li {
   display: inline-block;
 }
+
 .article-container ul li i {
   background: #eee;
   border-radius: 100%;
@@ -204,14 +214,14 @@ nav input {
   font-size: 20px;
   width: 20px;
 }
+
 .float-left {
   float: left;
 }
+
 .float-right {
   float: right;
 }
-
-
 
 .grid-container {
   width: 100%;
@@ -221,13 +231,14 @@ nav input {
   padding: 0;
   margin: 0;
 }
+
 .grid-box {
   width: 24%;
   float: left;
   padding: 3px;
-
 }
-.grid-box img{
+
+.grid-box img {
   width: 100%;
   height: 100%;
 }
@@ -236,13 +247,12 @@ nav input {
   font-size: 12px;
   margin: 0;
   padding: 0;
-
 }
+
 .grid-container hr {
   width: 80px;
   float: left;
 }
-
 
 .related-container {
   display: flex;
@@ -264,13 +274,7 @@ nav input {
   margin-right: 20px;
 }
 
-.right {
-}
-
-.left {
-}
-
-.left-segment figure figcaption, p {
+.left-segment figure figcaption p {
   font-size: 12px;
 }
 
@@ -278,7 +282,8 @@ nav input {
   width: 30%;
   padding: 5px;
 }
-.right-segment ul li{
+
+.right-segment ul li {
   padding: 20px 10px;
   border-top: 2px solid #e2e2e2;
 }
@@ -291,12 +296,10 @@ nav input {
 footer {
   width: 90%;
   margin: 0 auto;
-
 }
+
 .top-footer {
   border-top: 2px double #ddd;
-
-
 }
 
 .top-footer img {
@@ -308,23 +311,24 @@ footer {
 .footer-column {
   float: left;
   width: 16.66%;
-  }
+}
 
-.bottom-footer ul li a, .footer-column ul li a{
+.bottom-footer ul li a,
+.footer-column ul li a {
   color: black;
 }
 
-.bottom-footer ul li a{
+.bottom-footer ul li a {
   font-size: 10px;
 }
-.bottom-footer ul li{
+
+.bottom-footer ul li {
   text-indent: center;
   display: inline-block;
 }
 
-.bottom-footer{
+.bottom-footer {
   margin-top: 15px;
   border-top: 1px solid #ddd;
   text-align: center;
-
 }
